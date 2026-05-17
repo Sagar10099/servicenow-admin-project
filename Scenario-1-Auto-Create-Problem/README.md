@@ -133,6 +133,8 @@ Because the Incident record must first be inserted into the database before chec
 
 })(current, previous);
 
+# Step 4 — TESTING
+
 Create 3 incidents with the same Short Description:
 
 Example:
