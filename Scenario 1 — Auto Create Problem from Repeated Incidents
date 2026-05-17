@@ -145,4 +145,9 @@ After the 3rd incident:
 Check navigation:
 Problem → All
 
+“I created a real-time ITIL automation scenario in ServiceNow where repeated incidents automatically trigger Problem creation.
+Using a Business Rule and GlideRecord, the system checks incident count based on Short Description.
+If 3 or more similar incidents exist, a Problem record is automatically created to help teams identify the root cause instead of resolving repeated incidents manually.
+This project helped me understand server-side scripting, GlideRecord operations, Incident and Problem Management, and real-time banking support scenarios.”
+
 
