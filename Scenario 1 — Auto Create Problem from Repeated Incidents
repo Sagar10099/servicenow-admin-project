@@ -132,3 +132,17 @@ Because the Incident record must first be inserted into the database before chec
     }
 
 })(current, previous);
+
+Create 3 incidents with the same Short Description:
+
+Example:
+ATM Server Down
+
+Expected Output
+After the 3rd incident:
+✅ Problem record is automatically created
+
+Check navigation:
+Problem → All
+
+
