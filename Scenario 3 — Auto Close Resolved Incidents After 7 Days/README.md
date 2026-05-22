@@ -1,4 +1,5 @@
 Auto Close Resolved Incidents After 7 Days — ServiceNow
+
 📌 Project Overview
 
 This project automates the incident lifecycle management process in ServiceNow by automatically closing incidents that remain in the Resolved state for more than 7 days.
@@ -16,6 +17,7 @@ GlideRecord
 Server-side JavaScript
 Incident Management
 Background Automation
+
 ⚙ Business Requirement
 Scenario
 
@@ -37,6 +39,7 @@ Automatically updates:
 State → Closed
 Close Notes
 Work Notes
+
 📜 Script Used
 var gr = new GlideRecord('incident');
 
@@ -57,6 +60,7 @@ while(gr.next()) {
 
     gr.update();
 }
+
 🔍 Script Explanation
 GlideRecord
 var gr = new GlideRecord('incident');
@@ -99,6 +103,7 @@ Reduced manual effort
 Improved ticket lifecycle management
 Prevented stale resolved incidents
 Improved operational efficiency
+
 💡 Real-Time Use Case
 
 This automation is commonly used in enterprise ITSM environments where incidents should not remain indefinitely in the Resolved state.
@@ -124,6 +129,7 @@ Server-side Scripting
 Date-based Queries
 Background Automation
 Incident Lifecycle Management
+
 📁 GitHub Repository Structure
 Auto-Close-Resolved-Incidents/
 │
@@ -135,6 +141,7 @@ Send notification before auto closure
 Auto reopen logic if user responds
 Configurable closure duration
 Logging and error handling
+
 👨‍💻 Developed By
 
 Sagar Pachpande
